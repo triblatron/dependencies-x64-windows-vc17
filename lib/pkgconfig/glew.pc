@@ -1,0 +1,11 @@
+prefix=C:/tartings/cuhc++/dependencies-x64-windows-vc17
+exec_prefix=${prefix}
+libdir=C:/tartings/cuhc++/dependencies-x64-windows-vc17/lib
+includedir=${prefix}/include
+
+Name: glew
+Description: The OpenGL Extension Wrangler library
+Version: 2.0.0
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lglew32
+Requires: glu
